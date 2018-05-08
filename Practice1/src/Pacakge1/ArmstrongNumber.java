@@ -5,12 +5,12 @@ public class ArmstrongNumber {
 	{
 		//Armstrong Number : sum of cube of digits is same as the number eg: 153
 		int n=153;
-		int temp, r=0, sum=0;
+		int temp, rem1=0, sum=0;
 	 temp=n;
 		while (n>0) 
 		{
-			r=n%10;
-			sum=sum+(r*r*r);
+			rem1=n%10;
+			sum=sum+(rem1*rem1*rem1);
 			n=n/10;
 			
 		}
