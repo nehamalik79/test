@@ -5,7 +5,7 @@ public class Sum {
 	{
 		int a=0,b=0,sum=0;
 		sum =a+b;
-		System.out.println(sum);
+		System.out.println(sum + "1nnb");
 	}
 
 }
