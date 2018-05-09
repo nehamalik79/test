@@ -8,7 +8,7 @@ public class Sum {
 		sum =a+b;
 		diff=c-d;
 		System.out.println(sum +" "+"it is the sum");
-		System.out.println(diff);
+		System.out.println(diff +" " + "It is the difference");
 	}
 
 }
